@@ -31,10 +31,10 @@ const dataEvents = [
 		description:
 			"L’Acam organisera une nouvelle édition des jARTdins de Montagny, un événement artistique printanier qui attire environ 5000 visiteurs depuis plus de 20 ans.\n Le village de Montagny-en-Vexin ouvre ses jardins à des artistes plasticiens pour des expositions originales. Situé entre l’Île-de-France et la Normandie, ce rendez-vous met en valeur la créativité locale à travers une « grande promenade des Arts » avec aussi musique, danse, chants et théâtre tout le week-end.",
 		souvenir: "",
-		src: "/images/events/20260524-jartdins.jpg",
+		src: "/images/events/20260312-jartdins.jpeg",
 		alt: "Affiche de l'événement Les jARTdins de Montagny 2026",
-		link: "/cours",
-		levenement: false,
+		link: "https://lesjartdinsdemontagny.fr/",
+		levenement: true,
 		past: false,
 		souvenirs: false,
 	},
@@ -50,7 +50,7 @@ const dataEvents = [
 		alt: "Affiche de l'événement Exposition sur le conte",
 		link: "/cours",
 		levenement: false,
-		past: false,
+		past: true,
 		souvenirs: false,
 	},
 	{
@@ -65,7 +65,7 @@ const dataEvents = [
 		alt: "Affiche de l'événement Concert de Noël et contes",
 		link: "/cours",
 		levenement: false,
-		past: false,
+		past: true,
 		souvenirs: false,
 	},
 	{
@@ -95,8 +95,8 @@ const dataEvents = [
 		src: "/images/events/20250903-cours.jpeg",
 		alt: "Affiche de l'événement Reprise des cours",
 		link: "/cours",
-		levenement: true,
-		past: false,
+		levenement: false,
+		past: true,
 		souvenirs: false,
 	},
 	{

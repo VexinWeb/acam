@@ -17,11 +17,11 @@ const RejoindrePage = () => {
 					{/* <p>Voici un lien pour télécharger le fichier PDF :</p> */}
 					<Link
 						target="_blank"
-						href="/pdf/adhesion.pdf"
+						href="/pdf/2026-2027-adhesion-inscription.pdf"
 						className="opacity-75 z-10 bg-yellow-300 py-8 px-6 drop-shadow-2xl items-center"
 						download
 					>
-						Télécharger le bulletin d&apos;adhésion
+						Bulletin d&apos;adhésion et d&apos;inscription
 					</Link>
 				</div>
 				<div className="">
@@ -76,11 +76,11 @@ const RejoindrePage = () => {
 								{/* <p>Voici un lien pour télécharger le fichier PDF :</p> */}
 								<Link
 									target="_blank"
-									href="/pdf/adhesion.pdf"
+									href="/pdf/2026-2027-adhesion-inscription.pdf"
 									className="opacity-75 z-10 bg-yellow-300 py-8 px-6 drop-shadow-2xl items-center"
 									download
 								>
-									Télécharger le bulletin d&apos;adhésion
+									Bulletin d&apos;adhésion et d&apos;inscription
 								</Link>
 							</div>
 						</div>

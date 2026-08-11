@@ -16,15 +16,13 @@ const ReglementPage = () => {
 				<div className="text-center mb-12">
 					{/* <h1>Bulletin d&apos;adhésion à télécharger</h1> */}
 					{/* <p>Voici un lien pour télécharger le fichier PDF :</p> */}
-					<Link target="_blank" href="/pdf/adhesion.pdf" download>
-						Télécharger le bulletin d&apos;adhésion à l&apos;Acam en PDF
-					</Link>
-				</div>
-				<div className="text-center mb-12">
-					{/* <h1>Bulletin d&apos;adhésion à télécharger</h1> */}
-					{/* <p>Voici un lien pour télécharger le fichier PDF :</p> */}
-					<Link target="_blank" href="/pdf/inscription.pdf" download>
-						Télécharger le bulletin d&apos;inscription aux cours en PDF
+					<Link
+						target="_blank"
+						href="/pdf/2026-2027-adhesion-inscription.pdf"
+						download
+					>
+						Télécharger le bulletin d&apos;adhésion à l&apos;Acam et
+						d&apos;inscription aux cours en PDF
 					</Link>
 				</div>
 				<ul>
@@ -42,9 +40,9 @@ const ReglementPage = () => {
 							<li>
 								<p>
 									L&apos;inscription aux ateliers se fait, pour les anciens qui
-									le désirent, à l’assemblée générale, et pour tous au forum des
-									associations ou au premier cours de l&apos;atelier choisi pour
-									une année scolaire.
+									le désirent, à l’assemblée générale (pour les anciens), et
+									pour tous au forum des associations ou au premier cours de
+									l&apos;atelier choisi pour une année scolaire.
 								</p>
 								<br />
 								<p>
@@ -55,13 +53,13 @@ const ReglementPage = () => {
 								<p>
 									Les orchestres sont des ateliers qui viennent en complément
 									d’un cours particulier pour appliquer collectivement un
-									travail instrumental. Ils ont lieu une semaine sur 2.
+									travail instrumental.
 								</p>
 								<br />
 								<p>
-									L’atelier de formation musicale, est obligatoire pour tous les
-									élèves d’élémentaire, collège et lycée et donne accès aux
-									ateliers d’orchestre, il a lieu toutes les semaines.
+									L’atelier de formation musicale est obligatoire pour tous les
+									élèves du CE1 à la 6ème et donne accès aux ateliers
+									d’orchestre.
 								</p>
 								<br />
 								<p>
@@ -182,7 +180,7 @@ const ReglementPage = () => {
 						</ul>
 					</li>
 					<br />
-					<li>
+					{/* <li>
 						<h2 className="text-2xl underline underline-offset-2">
 							Les j&apos;ARTdins
 						</h2>
@@ -214,7 +212,7 @@ const ReglementPage = () => {
 								</p>
 							</li>
 						</ul>
-					</li>
+					</li> */}
 				</ul>
 				<div className="text-center mb-12 mt-24">
 					{/* <h1>Bulletin d&apos;adhésion à télécharger</h1> */}

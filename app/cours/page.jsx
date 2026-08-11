@@ -20,24 +20,24 @@ const CoursPage = () => {
 					{/* <p>Voici un lien pour télécharger le fichier PDF :</p> */}
 					<Link
 						target="_blank"
-						href="/pdf/adhesion.pdf"
+						href="/pdf/2026-2027-adhesion-inscription.pdf"
 						className="opacity-75 z-10 bg-yellow-300 py-8 px-6 drop-shadow-2xl items-center"
 						download
 					>
-						Télécharger le bulletin d&apos;adhésion
+						Bulletin d&apos;adhésion et d&apos;inscription
 					</Link>
 				</div>
 				<br />
-				<div className="text-center mb-12 sm:px-0">
+				<div className="text-center mb-12 px-3 sm:px-0">
 					{/* <h1>Bulletin d&apos;adhésion à télécharger</h1> */}
 					{/* <p>Voici un lien pour télécharger le fichier PDF :</p> */}
 					<Link
 						target="_blank"
-						href="/pdf/inscription.pdf"
+						href="/pdf/2026-2027-reglement.pdf"
 						className="opacity-75 z-10 bg-yellow-300 py-8 px-6 drop-shadow-2xl items-center"
 						download
 					>
-						Télécharger le bulletin d&apos;inscription{" "}
+						Règlement intérieur de l&apos;Acam
 					</Link>
 				</div>
 			</div>
@@ -82,24 +82,24 @@ const CoursPage = () => {
 					{/* <p>Voici un lien pour télécharger le fichier PDF :</p> */}
 					<Link
 						target="_blank"
-						href="/pdf/adhesion.pdf"
+						href="/pdf/2026-2027-adhesion-inscription.pdf"
 						className="opacity-75 z-10 bg-yellow-300 py-8 px-6 drop-shadow-2xl items-center"
 						download
 					>
-						Télécharger le bulletin d&apos;adhésion
+						Bulletin d&apos;adhésion et d&apos;inscription
 					</Link>
 				</div>
 				<br />
-				<div className="text-center mb-12 sm:px-0">
+				<div className="text-center mb-12 px-3 sm:px-0">
 					{/* <h1>Bulletin d&apos;adhésion à télécharger</h1> */}
 					{/* <p>Voici un lien pour télécharger le fichier PDF :</p> */}
 					<Link
 						target="_blank"
-						href="/pdf/inscription.pdf"
+						href="/pdf/2026-2027-reglement.pdf"
 						className="opacity-75 z-10 bg-yellow-300 py-8 px-6 drop-shadow-2xl items-center"
 						download
 					>
-						Télécharger le bulletin d&apos;inscription
+						Règlement intérieur de l&apos;Acam
 					</Link>
 				</div>
 			</div>
